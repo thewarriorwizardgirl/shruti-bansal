@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { PageId } from '../types';
 import { Menu, X, Sparkles } from 'lucide-react';
-import shrutiLogo from '../assets/images/shruti.png';
 
 interface NavbarProps {
   currentPage: PageId;
@@ -37,21 +36,21 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
           {/* Zone 1: Brand title & logo */}
           <button
             onClick={() => handleNavClick('home')}
-            className="group text-left font-serif-display font-medium text-[#4A6163] hover:text-[#F17A7E] transition-colors whitespace-nowrap shrink-0 flex items-center gap-3 sm:gap-4 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F9A66C] rounded-2xl p-1"
+            className="group text-left font-serif font-medium text-[#4A6163] hover:text-[#F17A7E] transition-colors whitespace-nowrap shrink-0 flex items-center gap-3 sm:gap-4 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F9A66C] rounded-2xl p-1"
           >
             <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-18 md:h-18 rounded-2xl overflow-hidden shadow-xs border border-[#4A6163]/15 bg-white shrink-0 p-0.5 group-hover:scale-105 transition-transform duration-200">
               <img
-                src={shrutiLogo}
+                src="/src/assets/images/shruti.png"
                 alt="Studio Shruti Logo"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-contain rounded-xl"
               />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="tracking-tight font-semibold text-xl sm:text-2xl md:text-3xl leading-tight text-[#4A6163]">
+              <span className="tracking-tight font-serif font-semibold text-xl sm:text-2xl md:text-3xl leading-tight text-[#4A6163]">
                 Shruti's Studio
               </span>
-              <span className="text-[10px] sm:text-xs font-sans tracking-widest uppercase text-[#F9A66C] font-semibold opacity-95 hidden sm:inline-block mt-0.5 leading-normal">
+              <span className="tracking-kicker text-[10px] sm:text-xs font-semibold uppercase text-[#F9A66C] hidden sm:inline-block mt-0.5 leading-normal">
                 Artist & Educator
               </span>
             </div>

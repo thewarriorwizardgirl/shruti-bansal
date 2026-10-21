@@ -23,12 +23,12 @@ export const MediumCardsGrid: React.FC<MediumCardsGridProps> = ({
       {(titleKicker || heading || subheading) && (
         <div className="max-w-3xl mb-8 text-center mx-auto px-4">
           {titleKicker && (
-            <p className="text-xs uppercase tracking-widest font-semibold text-[#F9A66C] mb-2">
+            <p className="tracking-kicker text-xs uppercase font-semibold text-[#F9A66C] mb-2">
               {titleKicker}
             </p>
           )}
           {heading && (
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif-display font-medium text-[#4A6163] tracking-tight mb-3">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-[#4A6163] tracking-tight mb-3">
               {heading}
             </h2>
           )}
@@ -80,7 +80,7 @@ export const MediumCardsGrid: React.FC<MediumCardsGridProps> = ({
                     <span className="text-xs sm:text-lg" role="img" aria-label={card.title}>
                       {card.icon}
                     </span>
-                    <h3 className="text-[11px] sm:text-base font-serif-display font-semibold text-[#4A6163] group-hover:text-[#F17A7E] transition-colors truncate">
+                    <h3 className="text-[11px] sm:text-base font-serif font-semibold text-[#4A6163] group-hover:text-[#F17A7E] transition-colors truncate">
                       {card.title}
                     </h3>
                   </div>
@@ -92,7 +92,7 @@ export const MediumCardsGrid: React.FC<MediumCardsGridProps> = ({
                 <div className="mt-1.5 sm:mt-3 pt-1 sm:pt-2.5 border-t border-[#4A6163]/10 flex items-center justify-between text-[9px] sm:text-xs font-medium text-[#F9A66C] group-hover:text-[#4A6163] transition-colors">
                   <span className="hidden sm:inline">Explore medium</span>
                   <span className="sm:hidden">Explore</span>
-                  <span className="font-mono text-[10px] sm:text-sm">→</span>
+                  <span className="font-sans text-xs sm:text-sm transition-transform group-hover:translate-x-0.5">→</span>
                 </div>
               </div>
             </button>

@@ -9,10 +9,10 @@ export const TestimonialsMarquee: React.FC = () => {
   return (
     <section className="py-14 md:py-20 overflow-hidden bg-[#F2F6F6]/60 border-y border-[#4A6163]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
-        <p className="text-xs uppercase tracking-widest font-semibold text-[#F9A66C] mb-2">
+        <p className="tracking-kicker text-xs uppercase font-semibold text-[#F9A66C] mb-2">
           Community & Impressions
         </p>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif-display font-medium text-[#4A6163] tracking-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-[#4A6163] tracking-tight">
           Words from Parents, Students & Patrons
         </h2>
         <p className="mt-2 text-sm text-[#4A6163]/75 max-w-xl mx-auto">
@@ -41,7 +41,7 @@ export const TestimonialsMarquee: React.FC = () => {
                     </span>
                     <Quote className="w-5 h-5 text-[#F9A66C]/40" />
                   </div>
-                  <p className="text-sm md:text-[15px] leading-relaxed text-[#4A6163] font-normal italic mb-6">
+                  <p className="font-serif text-sm md:text-[15px] leading-relaxed text-[#4A6163] font-normal font-editorial-italic mb-6">
                     "{item.quote}"
                   </p>
                 </div>
@@ -55,7 +55,7 @@ export const TestimonialsMarquee: React.FC = () => {
                     {item.initials}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <h4 className="text-sm font-semibold text-[#4A6163] truncate">
+                    <h4 className="text-sm font-semibold text-[#4A6163] truncate font-sans">
                       {item.name}
                     </h4>
                     <p className="text-xs text-[#4A6163]/70 truncate">

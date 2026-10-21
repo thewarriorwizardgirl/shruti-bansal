@@ -1,23 +1,53 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  --color-cream: #F9FAF4;
+  --color-slate: #4A6163;
+  --color-peach: #F9A66C;
+  --color-yellow: #FFC94B;
+  --color-coral: #F17A7E;
+}
+
 @layer base {
-  :root {
-    --color-cream: #F9FAF4;
-    --color-slate: #4A6163;
-    --color-peach: #F9A66C;
-    --color-yellow: #FFC94B;
-    --color-coral: #F17A7E;
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: var(--font-sans);
     background-color: #F9FAF4;
     color: #4A6163;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, .font-serif-display {
-    font-family: 'Fraunces', Georgia, serif;
+  /* Unify all headings and display classes to Fraunces with optical sizing */
+  h1, h2, h3, h4, h5, h6, .font-serif, .font-serif-display, .font-display {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
   }
+}
+
+/* Editorial Typography Utility Classes */
+.font-display {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+}
+
+.font-editorial-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-optical-sizing: auto;
+}
+
+.tracking-kicker {
+  font-family: var(--font-sans);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 @keyframes marquee {
@@ -39,7 +69,7 @@
   animation-play-state: paused;
 }
 
-/* Custom scrollbar */
+/* Custom subtle scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;

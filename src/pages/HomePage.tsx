@@ -15,14 +15,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
     <div className="min-h-screen flex flex-col">
       {/* 
         MAIN HERO VIEWPORT:
-        1. First div: EXACT statement requested, zero fluff. Moved up with generous space below.
-        2. Below that: "Work across mediums" cards with increased breathing room.
+        1. First div: EXACT statement requested, zero fluff. Displayed with editorial Fraunces typography.
+        2. Below that: "Work across mediums" cards with generous breathing room.
       */}
       <section className="w-full lg:min-h-[calc(100vh-5rem)] flex flex-col justify-start px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-6 sm:pt-8 lg:pt-10 pb-8">
-        {/* First div in main section: zero fluff statement, positioned higher */}
-        <div className="text-center max-w-4xl mx-auto mb-8 sm:mb-10 lg:mb-14">
-          <p className="text-lg sm:text-xl lg:text-2xl font-serif-display text-[#4A6163] leading-relaxed font-normal">
-            "Art takes many forms—sometimes it’s oil on canvas, sometimes vector curves on a screen, and other times intricate henna design or creative hands-on craft. Here is a look at my work across various mediums."
+        {/* First div in main section: zero fluff statement, editorial display scale */}
+        <div className="text-center max-w-4xl mx-auto mb-8 sm:mb-10 lg:mb-14 px-2">
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-[34px] leading-[1.35] sm:leading-[1.4] font-serif text-[#4A6163] font-normal tracking-tight">
+            "Art takes many forms—sometimes it’s <span className="font-editorial-italic text-[#35484A]">oil on canvas</span>, sometimes <span className="font-editorial-italic text-[#35484A]">vector curves</span> on a screen, and other times <span className="font-editorial-italic text-[#35484A]">intricate henna design</span> or creative hands-on craft. Here is a look at my work across various mediums."
           </p>
         </div>
 
@@ -44,11 +44,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
             {/* Left Content */}
             <div className="lg:col-span-7 flex flex-col justify-center">
-              <span className="text-xs uppercase tracking-widest font-semibold text-[#F9A66C] mb-2">
+              <span className="tracking-kicker text-[11px] font-semibold text-[#F9A66C] mb-2 block">
                 Summer Camps & Workshops
               </span>
 
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif-display font-medium text-[#4A6163] tracking-tight leading-[1.2] mb-5">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-[#4A6163] tracking-tight leading-[1.15] mb-5">
                 Nurturing Little Artists
               </h2>
 
@@ -63,7 +63,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                     onNavigate('contact');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="px-6 py-3 rounded-full bg-[#4A6163] text-white font-medium hover:bg-[#F9A66C] transition-all duration-200 shadow-xs hover:shadow-md cursor-pointer flex items-center gap-2 group"
+                  className="px-6 py-3 rounded-full bg-[#4A6163] text-white text-sm font-semibold hover:bg-[#F9A66C] transition-all duration-200 shadow-xs hover:shadow-md cursor-pointer flex items-center gap-2 group"
                 >
                   <span>Inquire About Camps</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -74,7 +74,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                     onNavigate('summer-camps');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="px-6 py-3 rounded-full bg-white text-[#4A6163] font-medium border border-[#4A6163]/20 hover:border-[#4A6163] transition-all duration-200 cursor-pointer shadow-2xs hover:bg-[#F9FAF4]"
+                  className="px-6 py-3 rounded-full bg-white text-[#4A6163] text-sm font-semibold border border-[#4A6163]/20 hover:border-[#4A6163] transition-all duration-200 cursor-pointer shadow-2xs hover:bg-[#F9FAF4]"
                 >
                   Workshop Glimpses
                 </button>
@@ -92,7 +92,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md rounded-xl p-3 shadow-md border border-white/80">
-                  <p className="text-xs uppercase tracking-wider font-semibold text-[#F9A66C] mb-0.5">
+                  <p className="tracking-kicker text-[10px] font-semibold text-[#F9A66C] mb-0.5 block">
                     Creative Camp Experience
                   </p>
                   <p className="text-xs sm:text-sm font-medium text-[#4A6163]">
