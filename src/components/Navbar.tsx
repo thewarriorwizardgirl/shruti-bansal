@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PageId } from '../types';
 import { Menu, X, Sparkles } from 'lucide-react';
+import shrutiLogo from '../assets/images/shruti.png';
 
 interface NavbarProps {
   currentPage: PageId;
@@ -40,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
           >
             <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-18 md:h-18 rounded-2xl overflow-hidden shadow-xs border border-[#4A6163]/15 bg-white shrink-0 p-0.5 group-hover:scale-105 transition-transform duration-200">
               <img
-                src="/src/assets/images/shruti.png"
+                src={shrutiLogo}
                 alt="Studio Shruti Logo"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-contain rounded-xl"
