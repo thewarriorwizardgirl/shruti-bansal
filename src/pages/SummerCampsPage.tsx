@@ -195,32 +195,12 @@ export const SummerCampsPage: React.FC<SummerCampsPageProps> = ({ onNavigate }) 
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif-display font-medium text-[#4A6163] tracking-tight mb-3">
-              Glimpses of the previous workshops
+              Glimpses of the previous summer camps
             </h1>
-
-            <p className="text-base sm:text-lg text-[#4A6163]/80 font-serif italic mb-4">
-              "Hands-on art and craft camps giving young minds a space to explore colors, build creative confidence, and take home projects they’re proud of."
-            </p>
 
             <p className="text-sm sm:text-base text-[#4A6163]/85 leading-relaxed">
               Explore previous workshop moments—from glass painting, mango festival entrepreneurial stalls, and dance labs to leaf printing, scratch art, and celebratory student showcases.
             </p>
-
-            {/* Quick Badges */}
-            <div className="mt-6 flex flex-wrap gap-3">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FFC94B]/20 text-[#4A6163] text-xs font-semibold">
-                <Calendar className="w-3.5 h-3.5 text-[#F9A66C]" />
-                <span>Annual Summer Camps</span>
-              </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#F9A66C]/20 text-[#4A6163] text-xs font-semibold">
-                <Users className="w-3.5 h-3.5 text-[#4A6163]" />
-                <span>Small Cohort Mentorship</span>
-              </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#F17A7E]/20 text-[#4A6163] text-xs font-semibold">
-                <Award className="w-3.5 h-3.5 text-[#F17A7E]" />
-                <span>Educator-Led Curriculum</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>

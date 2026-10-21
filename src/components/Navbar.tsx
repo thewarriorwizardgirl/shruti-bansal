@@ -11,12 +11,12 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks: { id: PageId; label: string }[] = [
-    { id: 'home', label: 'Home' },
-    { id: 'fine-arts', label: 'Canvases and Fine Arts' },
-    { id: 'graphic-design', label: 'Digital Art' },
-    { id: 'mehandi-makeup', label: 'Rangoli & Mehandi' },
-    { id: 'summer-camps', label: 'Summer Camps' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'home', label: 'HOME' },
+    { id: 'fine-arts', label: 'ARTWORK GALLERY' },
+    { id: 'graphic-design', label: 'DIGITAL ART' },
+    { id: 'mehandi-makeup', label: 'RANGOLI AND MEHANDI' },
+    { id: 'summer-camps', label: 'SUMMER CAMPS' },
+    { id: 'contact', label: 'CONTACT' },
   ];
 
   const handleNavClick = (page: PageId) => {

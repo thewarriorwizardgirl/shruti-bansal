@@ -49,7 +49,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               </span>
 
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-[#4A6163] tracking-tight leading-[1.15] mb-5">
-                Nurturing Little Artists
+                NURTURING   LITTLE   ARTISTS
               </h2>
 
               <p className="text-base sm:text-lg text-[#4A6163]/85 leading-relaxed max-w-2xl font-normal mb-8 text-pretty">
