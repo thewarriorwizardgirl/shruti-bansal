@@ -1,3 +1,33 @@
+import handmadeCardsCEE3mCzM5Gy from '../assets/images/portfolio/handmade_cards_CEE3mCzM5Gy.jpg';
+import handmadeCardsCiKUkGmJvzZ from '../assets/images/portfolio/handmade_cards_CiKUkGmJvzZ.jpg';
+import handmadeCardsCh7YLdPJAz from '../assets/images/portfolio/handmade_cards_Ch7YLdPJAz-.jpg';
+import handmadeCardsChuNg7rpgsC from '../assets/images/portfolio/handmade_cards_ChuNg7rpgsC.jpg';
+import handmadeCardsChwR_lp1hT from '../assets/images/portfolio/handmade_cards_Chw-r_lp1hT.jpg';
+import handmadeCardsCFjEFAyMiii from '../assets/images/portfolio/handmade_cards_CFjEFAyMiii.jpg';
+import handmadeCardsCFytjVmspju from '../assets/images/portfolio/handmade_cards_CFytjVmspju.jpg';
+import handmadeCardsCEjNsmrsz5D from '../assets/images/portfolio/handmade_cards_CEjNsmrsz5D.jpg';
+import handmadeCardsCfox88PM5LU from '../assets/images/portfolio/handmade_cards_Cfox88PM5LU.jpg';
+import handmadeCardsCGpaRRKMYw from '../assets/images/portfolio/handmade_cards_CGpaRRKMYw_.jpg';
+import handmadeCardsChWrz5EJ2qm from '../assets/images/portfolio/handmade_cards_ChWrz5EJ2qm.jpg';
+import handmadeCardsCiPnGwDpb93 from '../assets/images/portfolio/handmade_cards_CiPnGwDpb93.jpg';
+import handmadeCardsCiadisZpU7J from '../assets/images/portfolio/handmade_cards_CiadisZpU7J.jpg';
+import handmadeCardsCiHTocKvyRK from '../assets/images/portfolio/handmade_cards_CiHTocKvyRK.jpg';
+import handmadeCardsChHqUDsMbd from '../assets/images/portfolio/handmade_cards_Ch-HqUDsMbd.jpg';
+import framesCEcFJjisj1L from '../assets/images/portfolio/frames_CEcFJjisj1L.jpg';
+import penAndInkCjCuxWlpQDY from '../assets/images/portfolio/pen_and_ink_CjCuxWlpQDY.jpg';
+import pocketPaintingsDEG1aUiSsOm from '../assets/images/portfolio/pocket_paintings_DEG1aUiSsOm.jpg';
+import craftsCANCl3JhTr from '../assets/images/portfolio/crafts_CANCl3-JhTr.jpg';
+import craftsB26JmC4JN3f from '../assets/images/portfolio/crafts_B26JmC4JN3f.jpg';
+import craftsBSqzoWugBsx from '../assets/images/portfolio/crafts_BSqzoWugBsx.jpg';
+import craftsB4INJxeJypY from '../assets/images/portfolio/crafts_B4INJxeJypY.jpg';
+import craftsCiH0mt8vBg7 from '../assets/images/portfolio/crafts_CiH0mt8vBg7.jpg';
+import craftsCliiiMeS5O2 from '../assets/images/portfolio/crafts_CliiiMeS5O2.jpg';
+import digitalArtCOiihgEMG1Q from '../assets/images/portfolio/digital_art_COiihgEMG1Q.jpg';
+import digitalArtCEIzUnyMtS8 from '../assets/images/portfolio/digital_art_CEIzUnyMtS8.jpg';
+import rangoliPeacock from '../assets/images/rangoli_peacock_diwali_1792496981369.jpg';
+import rangoliFloralMandala from '../assets/images/rangoli_floral_mandala_1792496999649.jpg';
+//import mehandiMakeupArt from '../assets/images/mehandi_makeup_art_1792340349236.jpg';
+
 export interface PortfolioItem {
   id: string;
   postCode: string;
@@ -14,7 +44,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_0',
     postCode: 'CEE3mCzM5Gy',
     url: 'https://www.instagram.com/p/CEE3mCzM5Gy/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CEE3mCzM5Gy.jpg',
+    localPath: handmadeCardsCEE3mCzM5Gy,
     category: 'Handmade Cards',
     title: 'Family Warmth Watercolor Card',
     subtitle: 'Watercolor on 300gsm cold-pressed sheet',
@@ -24,7 +54,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_1',
     postCode: 'CiKUkGmJvzZ',
     url: 'https://www.instagram.com/p/CiKUkGmJvzZ/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CiKUkGmJvzZ.jpg',
+    localPath: handmadeCardsCiKUkGmJvzZ,
     category: 'Handmade Cards',
     title: 'Pretty Floral Botanical Greeting',
     subtitle: 'Gouache & Acrylic blend on textured paper',
@@ -34,7 +64,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_2',
     postCode: 'Ch7YLdPJAz-',
     url: 'https://www.instagram.com/p/Ch7YLdPJAz-/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_Ch7YLdPJAz-.jpg',
+    localPath: handmadeCardsCh7YLdPJAz,
     category: 'Handmade Cards',
     title: 'Ganesh Chaturthi Festive Card',
     subtitle: 'Acrylic & Gold leaf detailing',
@@ -44,7 +74,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_3',
     postCode: 'ChuNg7rpgsC',
     url: 'https://www.instagram.com/p/ChuNg7rpgsC/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_ChuNg7rpgsC.jpg',
+    localPath: handmadeCardsChuNg7rpgsC,
     category: 'Handmade Cards',
     title: 'Sunset Horizon Mini Card',
     subtitle: 'Gouache wash series',
@@ -54,7 +84,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_4',
     postCode: 'Chw-r_lp1hT',
     url: 'https://www.instagram.com/p/Chw-r_lp1hT/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_Chw-r_lp1hT.jpg',
+    localPath: handmadeCardsChwR_lp1hT,
     category: 'Handmade Cards',
     title: 'Golden Meadow Greeting Card',
     subtitle: 'Watercolor on Brustro paper',
@@ -64,7 +94,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_5',
     postCode: 'CFjEFAyMiii',
     url: 'https://www.instagram.com/p/CFjEFAyMiii/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CFjEFAyMiii.jpg',
+    localPath: handmadeCardsCFjEFAyMiii,
     category: 'Handmade Cards',
     title: 'Ocean Breeze Serenade Card',
     subtitle: 'Layered watercolor study',
@@ -74,7 +104,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_6',
     postCode: 'CFytjVmspju',
     url: 'https://www.instagram.com/p/CFytjVmspju/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CFytjVmspju.jpg',
+    localPath: handmadeCardsCFytjVmspju,
     category: 'Handmade Cards',
     title: 'Autumn Whimsy Card',
     subtitle: 'Watercolors & ink linework',
@@ -84,7 +114,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_7',
     postCode: 'CEjNsmrsz5D',
     url: 'https://www.instagram.com/p/CEjNsmrsz5D/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CEjNsmrsz5D.jpg',
+    localPath: handmadeCardsCEjNsmrsz5D,
     category: 'Handmade Cards',
     title: 'Happy Accidents Watercolor Card',
     subtitle: 'Loose floral wash study',
@@ -94,7 +124,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_8',
     postCode: 'Cfox88PM5LU',
     url: 'https://www.instagram.com/p/Cfox88PM5LU/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_Cfox88PM5LU.jpg',
+    localPath: handmadeCardsCfox88PM5LU,
     category: 'Handmade Cards',
     title: 'Pastel Garden Card',
     subtitle: 'Watercolor & fine details',
@@ -104,7 +134,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_9',
     postCode: 'CGpaRRKMYw_',
     url: 'https://www.instagram.com/p/CGpaRRKMYw_/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CGpaRRKMYw_.jpg',
+    localPath: handmadeCardsCGpaRRKMYw,
     category: 'Handmade Cards',
     title: 'Starry Twilight Horizon',
     subtitle: 'Nightscape watercolor postcard',
@@ -114,7 +144,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_10',
     postCode: 'ChWrz5EJ2qm',
     url: 'https://www.instagram.com/p/ChWrz5EJ2qm/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_ChWrz5EJ2qm.jpg',
+    localPath: handmadeCardsChWrz5EJ2qm,
     category: 'Handmade Cards',
     title: 'Radiant Morning Blooms',
     subtitle: 'Camlin watercolors on Brustro sheet',
@@ -124,7 +154,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_11',
     postCode: 'CiPnGwDpb93',
     url: 'https://www.instagram.com/p/CiPnGwDpb93/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CiPnGwDpb93.jpg',
+    localPath: handmadeCardsCiPnGwDpb93,
     category: 'Handmade Cards',
     title: 'Night Sky Glowing Silhouette',
     subtitle: 'Gouache acrylic challenge entry',
@@ -134,7 +164,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_12',
     postCode: 'CiadisZpU7J',
     url: 'https://www.instagram.com/p/CiadisZpU7J/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CiadisZpU7J.jpg',
+    localPath: handmadeCardsCiadisZpU7J,
     category: 'Handmade Cards',
     title: 'Campfire Wilderness Greeting',
     subtitle: 'Gouache live painting series',
@@ -144,7 +174,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_13',
     postCode: 'CiHTocKvyRK',
     url: 'https://www.instagram.com/p/CiHTocKvyRK/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_CiHTocKvyRK.jpg',
+    localPath: handmadeCardsCiHTocKvyRK,
     category: 'Handmade Cards',
     title: 'Aesthetic Sunset Silhouette',
     subtitle: 'Thoovi Arts challenge entry',
@@ -154,7 +184,7 @@ export const HANDMADE_CARDS: PortfolioItem[] = [
     id: 'handmade_cards_14',
     postCode: 'Ch-HqUDsMbd',
     url: 'https://www.instagram.com/p/Ch-HqUDsMbd/',
-    localPath: '/src/assets/images/portfolio/handmade_cards_Ch-HqUDsMbd.jpg',
+    localPath: handmadeCardsChHqUDsMbd,
     category: 'Handmade Cards',
     title: 'Magical Ferris Wheel Night',
     subtitle: 'Gouache on textured sheet',
@@ -167,7 +197,7 @@ export const FRAMES: PortfolioItem[] = [
     id: 'frames_0',
     postCode: 'CEcFJjisj1L',
     url: 'https://www.instagram.com/p/CEcFJjisj1L/',
-    localPath: '/src/assets/images/portfolio/frames_CEcFJjisj1L.jpg',
+    localPath: framesCEcFJjisj1L,
     category: 'Frames & Mounted Canvases',
     title: 'Memories on Paper Mounted Frame',
     subtitle: 'Framed original watercolor on 300gsm sheet',
@@ -180,7 +210,7 @@ export const PEN_AND_INK: PortfolioItem[] = [
     id: 'pen_and_ink_0',
     postCode: 'CjCuxWlpQDY',
     url: 'https://www.instagram.com/p/CjCuxWlpQDY/',
-    localPath: '/src/assets/images/portfolio/pen_and_ink_CjCuxWlpQDY.jpg',
+    localPath: penAndInkCjCuxWlpQDY,
     category: 'Pen and Ink',
     title: 'Cityscape & Architecture Sketch',
     subtitle: 'Brustro fineliner masterclass collection',
@@ -193,7 +223,7 @@ export const POCKET_PAINTINGS: PortfolioItem[] = [
     id: 'pocket_paintings_0',
     postCode: 'DEG1aUiSsOm',
     url: 'https://www.instagram.com/p/DEG1aUiSsOm/',
-    localPath: '/src/assets/images/portfolio/pocket_paintings_DEG1aUiSsOm.jpg',
+    localPath: pocketPaintingsDEG1aUiSsOm,
     category: 'Pocket Paintings',
     title: 'Mountain Plein-Air Pocket Canvas',
     subtitle: 'Miniature canvas series painted in the hills',
@@ -206,7 +236,7 @@ export const CRAFTS: PortfolioItem[] = [
     id: 'crafts_0',
     postCode: 'CANCl3-JhTr',
     url: 'https://www.instagram.com/p/CANCl3-JhTr/',
-    localPath: '/src/assets/images/portfolio/crafts_CANCl3-JhTr.jpg',
+    localPath: craftsCANCl3JhTr,
     category: 'Crafts',
     title: 'Creative DIY Papercraft Module',
     subtitle: 'Hands-on DIY craft series',
@@ -216,7 +246,7 @@ export const CRAFTS: PortfolioItem[] = [
     id: 'crafts_1',
     postCode: 'B26JmC4JN3f',
     url: 'https://www.instagram.com/p/B26JmC4JN3f/',
-    localPath: '/src/assets/images/portfolio/crafts_B26JmC4JN3f.jpg',
+    localPath: craftsB26JmC4JN3f,
     category: 'Crafts',
     title: 'Handcrafted Festive Toran Door Hanging',
     subtitle: 'Traditional textile & embellishment art',
@@ -226,7 +256,7 @@ export const CRAFTS: PortfolioItem[] = [
     id: 'crafts_2',
     postCode: 'BSqzoWugBsx',
     url: 'https://www.instagram.com/p/BSqzoWugBsx/',
-    localPath: '/src/assets/images/portfolio/crafts_BSqzoWugBsx.jpg',
+    localPath: craftsBSqzoWugBsx,
     category: 'Crafts',
     title: 'Origami Paper Sculpted Swans',
     subtitle: '3D Paper sculpting & folding art',
@@ -236,7 +266,7 @@ export const CRAFTS: PortfolioItem[] = [
     id: 'crafts_3',
     postCode: 'B4INJxeJypY',
     url: 'https://www.instagram.com/p/B4INJxeJypY/',
-    localPath: '/src/assets/images/portfolio/crafts_B4INJxeJypY.jpg',
+    localPath: craftsB4INJxeJypY,
     category: 'Crafts',
     title: 'Heartwarming Handmade Keepsake',
     subtitle: 'Custom DIY mixed-craft gift',
@@ -246,7 +276,7 @@ export const CRAFTS: PortfolioItem[] = [
     id: 'crafts_4',
     postCode: 'CiH0mt8vBg7',
     url: 'https://www.instagram.com/p/CiH0mt8vBg7/',
-    localPath: '/src/assets/images/portfolio/crafts_CiH0mt8vBg7.jpg',
+    localPath: craftsCiH0mt8vBg7,
     category: 'Crafts',
     title: 'Personalized Wooden & Wool Art Plaque',
     subtitle: 'Custom wooden engraved & wool decor',
@@ -256,7 +286,7 @@ export const CRAFTS: PortfolioItem[] = [
     id: 'crafts_5',
     postCode: 'CliiiMeS5O2',
     url: 'https://www.instagram.com/p/CliiiMeS5O2/',
-    localPath: '/src/assets/images/portfolio/crafts_CliiiMeS5O2.jpg',
+    localPath: craftsCliiiMeS5O2,
     category: 'Crafts',
     title: 'Celebration Memory Shadowbox Gift',
     subtitle: 'Handmade anniversary & birthday order',
@@ -269,7 +299,7 @@ export const DIGITAL_ART: PortfolioItem[] = [
     id: 'digital_art_0',
     postCode: 'COiihgEMG1Q',
     url: 'https://www.instagram.com/p/COiihgEMG1Q/',
-    localPath: '/src/assets/images/portfolio/digital_art_COiihgEMG1Q.jpg',
+    localPath: digitalArtCOiihgEMG1Q,
     category: 'Digital Art',
     title: 'Virtual Dreams Digital Vector Art',
     subtitle: 'Created in Adobe Animate CC & Illustrator',
@@ -279,7 +309,7 @@ export const DIGITAL_ART: PortfolioItem[] = [
     id: 'digital_art_1',
     postCode: 'CEIzUnyMtS8',
     url: 'https://www.instagram.com/p/CEIzUnyMtS8/',
-    localPath: '/src/assets/images/portfolio/digital_art_CEIzUnyMtS8.jpg',
+    localPath: digitalArtCEIzUnyMtS8,
     category: 'Digital Art',
     title: 'Digital Portrait Painting',
     subtitle: 'Adobe Photoshop digital brushwork',
@@ -292,7 +322,7 @@ export const RANGOLI_ITEMS: PortfolioItem[] = [
     id: 'rangoli_0',
     postCode: 'peacock_diwali',
     url: 'https://www.instagram.com/miii_art_gallery__/',
-    localPath: '/src/assets/images/rangoli_peacock_diwali_1792496981369.jpg',
+    localPath: rangoliPeacock,
     category: 'Rangoli Art',
     title: 'Festive Peacock Feather Floor Rangoli',
     subtitle: 'Dry organic color powders with clay diyas',
@@ -302,7 +332,7 @@ export const RANGOLI_ITEMS: PortfolioItem[] = [
     id: 'rangoli_1',
     postCode: 'floral_mandala',
     url: 'https://www.instagram.com/miii_art_gallery__/',
-    localPath: '/src/assets/images/rangoli_floral_mandala_1792496999649.jpg',
+    localPath: rangoliFloralMandala,
     category: 'Rangoli Art',
     title: 'Traditional Floral Mandala Rangoli',
     subtitle: 'Fresh marigold & rose petals with colored sands',
@@ -315,7 +345,7 @@ export const MEHANDI_ITEMS: PortfolioItem[] = [
     id: 'mehandi_0',
     postCode: 'bridal_henna',
     url: 'https://www.instagram.com/miii_art_gallery__/',
-    localPath: '/src/assets/images/mehandi_makeup_art_1792340349236.jpg',
+    localPath: craftsB4INJxeJypY,
     category: 'Mehandi Art',
     title: 'Intricate Bridal Mehndi Adornment',
     subtitle: '100% natural organic henna paste',
@@ -325,7 +355,7 @@ export const MEHANDI_ITEMS: PortfolioItem[] = [
     id: 'mehandi_1',
     postCode: 'festive_arabic',
     url: 'https://www.instagram.com/miii_art_gallery__/',
-    localPath: '/src/assets/images/portfolio/crafts_B4INJxeJypY.jpg',
+    localPath: craftsB4INJxeJypY,
     category: 'Mehandi Art',
     title: 'Indo-Arabic Festive Henna Trail',
     subtitle: 'Flowing floral vine & shaded motifs',

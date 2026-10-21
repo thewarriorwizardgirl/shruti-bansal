@@ -1,6 +1,10 @@
 import { MediumCardData, TestimonialItem } from '../types';
+import nurturingLittleArtists from '../assets/images/nurturing_little_artists.jpg';
+import shivShakti from '../assets/images/instagram/shiv_shakti.jpg';
+import digitalArt from '../assets/images/portfolio/digital_art_COiihgEMG1Q.jpg';
+import rangoliPeacock from '../assets/images/rangoli_peacock_diwali_1792496981369.jpg';
 
-export const HERO_CAMP_IMAGE = '/src/assets/images/nurturing_little_artists.jpg';
+export const HERO_CAMP_IMAGE = nurturingLittleArtists;
 
 export const MEDIUM_CARDS: MediumCardData[] = [
   {
@@ -8,7 +12,7 @@ export const MEDIUM_CARDS: MediumCardData[] = [
     title: 'Canvases and Fine Arts',
     subtitle: 'Paintings, sketches, mixed media',
     icon: '🎨',
-    image: '/src/assets/images/instagram/shiv_shakti.jpg',
+    image: shivShakti,
     accentColor: '#F9A66C', // Warm peach
     bgLight: '#FFF6F0',
   },
@@ -17,7 +21,7 @@ export const MEDIUM_CARDS: MediumCardData[] = [
     title: 'Digital Art',
     subtitle: 'Illustrations, digital painting, vectors',
     icon: '💻',
-    image: '/src/assets/images/portfolio/digital_art_COiihgEMG1Q.jpg',
+    image: digitalArt,
     accentColor: '#4A6163', // Slate eucalyptus
     bgLight: '#F2F6F6',
   },
@@ -26,7 +30,7 @@ export const MEDIUM_CARDS: MediumCardData[] = [
     title: 'Rangoli & Mehandi',
     subtitle: 'Floor rangoli art, bridal & festive henna',
     icon: '🌿',
-    image: '/src/assets/images/rangoli_peacock_diwali_1792496981369.jpg',
+    image: rangoliPeacock,
     accentColor: '#F17A7E', // Coral rose
     bgLight: '#FFF2F3',
   },

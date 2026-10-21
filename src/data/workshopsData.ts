@@ -1,3 +1,17 @@
+import workshopRow1_1 from '../assets/images/workshops/row1_1.jpg';
+import workshopRow1_2 from '../assets/images/workshops/row1_2.jpg';
+import workshopRow1_3 from '../assets/images/workshops/row1_3.jpg';
+import workshopRow1_4 from '../assets/images/workshops/row1_4.jpg';
+import workshopRow1_5 from '../assets/images/workshops/row1_5.jpg';
+import workshopRow1_6 from '../assets/images/workshops/row1_6.jpg';
+import workshopRow1_7 from '../assets/images/workshops/row1_7.jpg';
+import workshopRow2_1 from '../assets/images/workshops/row2_1.jpg';
+import workshopRow2_2 from '../assets/images/workshops/row2_2.jpg';
+import workshopRow2_3 from '../assets/images/workshops/row2_3.jpg';
+import workshopRow2_4 from '../assets/images/workshops/row2_4.jpg';
+import workshopRow2_5 from '../assets/images/workshops/row2_5.jpg';
+import workshopRow2_6 from '../assets/images/workshops/row2_6.jpg';
+
 export interface WorkshopMediaItem {
   id: string;
   type: 'video' | 'image';
@@ -18,7 +32,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'DK3vmBtpW2S',
     url: 'https://www.instagram.com/p/DK3vmBtpW2S/',
-    localPath: '/src/assets/images/workshops/row1_1.jpg',
+    localPath: workshopRow1_1,
     title: 'Glass Painting Workshop Activity',
     subtitle: 'Hands-on creative glass art & vibrant pigments',
     description: 'Students discovering glass painting techniques with specialized paints, exploring transparency, color blending, and detailed outlines on glass sheets.',
@@ -29,7 +43,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'DKwaeqgJ82F',
     url: 'https://www.instagram.com/p/DKwaeqgJ82F/',
-    localPath: '/src/assets/images/workshops/row1_2.jpg',
+    localPath: workshopRow1_2,
     title: 'The Little Dancers Movement Lab',
     subtitle: 'Rhythm, stage confidence & joyful movement',
     description: 'Our enthusiastic young performers rehearsing lively choreography and expressive routines during summer camp stage sessions.',
@@ -40,7 +54,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'DKWewk2p6hH',
     url: 'https://www.instagram.com/p/DKWewk2p6hH/',
-    localPath: '/src/assets/images/workshops/row1_3.jpg',
+    localPath: workshopRow1_3,
     title: 'Mango Festival & Young Entrepreneur Stalls',
     subtitle: 'Hands-on buying, selling & creative culinary booths',
     description: 'A special weekend activity where students designed their own mango-themed recipe stalls, calculated pricing, and experienced the thrill of selling out their dishes completely!',
@@ -51,7 +65,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'DKSWGgdTNDL',
     url: 'https://www.instagram.com/p/DKSWGgdTNDL/',
-    localPath: '/src/assets/images/workshops/row1_4.jpg',
+    localPath: workshopRow1_4,
     title: 'Sunflower Craft & Sunlit Creations',
     subtitle: 'Multi-medium papercraft & radiant floral designs',
     description: 'Bright golden sunflower craft making with textured papers, scissor skill development, and proud little artists showing off their summer creations.',
@@ -62,7 +76,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'C8eFd7-pqdH',
     url: 'https://www.instagram.com/p/C8eFd7-pqdH/',
-    localPath: '/src/assets/images/workshops/row1_5.jpg',
+    localPath: workshopRow1_5,
     title: 'Camp Celebrations & Collaborative Murals',
     subtitle: 'Expressive team painting & joyous energy',
     description: 'Capturing the infectious smiles, shared laughs, and vibrant teamwork as kids worked together on large-scale craft and art displays.',
@@ -73,7 +87,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'CttCllGpMzW',
     url: 'https://www.instagram.com/p/CttCllGpMzW/',
-    localPath: '/src/assets/images/workshops/row1_6.jpg',
+    localPath: workshopRow1_6,
     title: 'Game Zone & Saturday Fun',
     subtitle: 'Active team games, laughter & peer bonding',
     description: 'Energetic group team building and indoor creative games designed to foster friendship, confidence, and motor coordination.',
@@ -84,7 +98,7 @@ export const WORKSHOP_VIDEOS: WorkshopMediaItem[] = [
     type: 'video',
     postCode: 'CtS_ti4p6Io',
     url: 'https://www.instagram.com/p/CtS_ti4p6Io/',
-    localPath: '/src/assets/images/workshops/row1_7.jpg',
+    localPath: workshopRow1_7,
     title: 'First Song Performance',
     subtitle: 'Musical vocals, group harmony & stage presence',
     description: 'Celebrating the kids perfecting their first group song performance with beautiful rhythm and beaming confidence.',
@@ -99,7 +113,7 @@ export const WORKSHOP_PICTURES: WorkshopMediaItem[] = [
     type: 'image',
     postCode: 'DKG5vq5JyFY',
     url: 'https://www.instagram.com/p/DKG5vq5JyFY/',
-    localPath: '/src/assets/images/workshops/row2_1.jpg',
+    localPath: workshopRow2_1,
     title: 'Summer Color Palette & Play',
     subtitle: 'Bright papercrafts and artistic exploration',
     description: 'Vibrant workshop session where students experimented with pastel textures, cut-outs, and mixed-medium collage compositions.',
@@ -110,7 +124,7 @@ export const WORKSHOP_PICTURES: WorkshopMediaItem[] = [
     type: 'image',
     postCode: 'DJ8mpEdpAgF',
     url: 'https://www.instagram.com/p/DJ8mpEdpAgF/',
-    localPath: '/src/assets/images/workshops/row2_2.jpg',
+    localPath: workshopRow2_2,
     title: 'Thumb Painting & Leaf Printing',
     subtitle: 'Botanical printing & tactile sensory art',
     description: 'Tactile sensory exploration combining natural garden leaves with tempera paints and fingerprint stamp textures to build organic trees and animals.',
@@ -121,7 +135,7 @@ export const WORKSHOP_PICTURES: WorkshopMediaItem[] = [
     type: 'image',
     postCode: 'C7lj3CnJAUg',
     url: 'https://www.instagram.com/p/C7lj3CnJAUg/',
-    localPath: '/src/assets/images/workshops/row2_3.jpg',
+    localPath: workshopRow2_3,
     title: 'Space Scratch Art & Printmaking',
     subtitle: 'Senior student scratchboards & junior prints',
     description: 'Senior cohorts crafted iridescent cosmic galaxies and constellations on scratchboard sheets, while younger artists mastered relief block stamping.',
@@ -132,7 +146,7 @@ export const WORKSHOP_PICTURES: WorkshopMediaItem[] = [
     type: 'image',
     postCode: 'C7TbapdpwRH',
     url: 'https://www.instagram.com/p/C7TbapdpwRH/',
-    localPath: '/src/assets/images/workshops/row2_4.jpg',
+    localPath: workshopRow2_4,
     title: 'The Little Artists Showcase',
     subtitle: 'Proud campers holding completed masterpieces',
     description: 'The joy of holding something created with their own two hands! Campers showcase their finished canvas paintings and handmade sculptures.',
@@ -143,7 +157,7 @@ export const WORKSHOP_PICTURES: WorkshopMediaItem[] = [
     type: 'image',
     postCode: 'Ct3XomjpD27',
     url: 'https://www.instagram.com/p/Ct3XomjpD27/',
-    localPath: '/src/assets/images/workshops/row2_5.jpg',
+    localPath: workshopRow2_5,
     title: 'Camp Finale & Celebration Feast',
     subtitle: 'Awarding certificates, sharing food & memories',
     description: 'Concluding the summer workshop with celebratory treats, heartfelt student certificates, and cherished friendships made to last a lifetime.',
@@ -154,7 +168,7 @@ export const WORKSHOP_PICTURES: WorkshopMediaItem[] = [
     type: 'image',
     postCode: 'CtJA-XxJaZ2',
     url: 'https://www.instagram.com/p/CtJA-XxJaZ2/',
-    localPath: '/src/assets/images/workshops/row2_6.jpg',
+    localPath: workshopRow2_6,
     title: 'Our Creative Troupe Moments',
     subtitle: 'Playful spirit & classroom laughter',
     description: 'Candid smiles during craft break times—where imagination knows no bounds and every child is encouraged to be their true, wonderful self.',
